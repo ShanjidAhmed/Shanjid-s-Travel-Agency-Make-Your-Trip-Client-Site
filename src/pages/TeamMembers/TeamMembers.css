@@ -1,0 +1,54 @@
+.doctor {
+  /* display: grid;
+    grid-template-columns: repeat(3, 1fr);*/
+  /* gap: 15px; */
+  margin-top: 30px;
+}
+.doctor-card {
+  border-radius: 10px;
+  /* background-color: rgba(32, 178, 171, 0.486); */
+  border: 5px solid rgba(41, 219, 210, 0.24);
+  transition: all 0.5s;
+}
+.doctor-card:hover {
+  transform: translateY(-10px);
+  background-color: rgba(32, 178, 171, 0.486);
+}
+.doctor-card img {
+  width: 70%;
+  margin: 5px auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.info {
+  font-weight: 500;
+}
+.appointment-btn {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  transition: all 0.5s;
+}
+.appointment-btn:hover {
+  background-color: rgb(60, 151, 232);
+  box-shadow: rgba(0, 0, 0, 0.24) 2px 7px 12px;
+}
+.title {
+  display: inline-block;
+  padding: 0 45%;
+  /* margin-top: 40px; */
+  /* text-align: center; */
+}
+.title::after {
+  content: "";
+  display: block;
+  background-color: teal;
+  /* background-color: maroon; */
+  height: 2px;
+  width: 100%;
+}
+.t-image img {
+  filter: brightness(65%);
+}
